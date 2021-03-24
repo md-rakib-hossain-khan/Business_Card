@@ -11,6 +11,8 @@
 		2D53F036260B034A009F6C76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53F035260B034A009F6C76 /* ContentView.swift */; };
 		2D53F038260B034E009F6C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D53F037260B034E009F6C76 /* Assets.xcassets */; };
 		2D53F03B260B034E009F6C76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D53F03A260B034E009F6C76 /* Preview Assets.xcassets */; };
+		2D53F04D260B1FC1009F6C76 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D53F04C260B1FC1009F6C76 /* Pacifico-Regular.ttf */; };
+		2D53F055260B3A9C009F6C76 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53F054260B3A9C009F6C76 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		2D53F037260B034E009F6C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D53F03A260B034E009F6C76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D53F03C260B034E009F6C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D53F04C260B1FC1009F6C76 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../Temporary/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		2D53F054260B3A9C009F6C76 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 		2D53F032260B034A009F6C76 /* Business Card */ = {
 			isa = PBXGroup;
 			children = (
+				2D53F043260B173F009F6C76 /* fonts */,
 				2D53F033260B034A009F6C76 /* Business_CardApp.swift */,
+				2D53F054260B3A9C009F6C76 /* InfoView.swift */,
 				2D53F035260B034A009F6C76 /* ContentView.swift */,
 				2D53F037260B034E009F6C76 /* Assets.xcassets */,
 				2D53F03C260B034E009F6C76 /* Info.plist */,
@@ -67,6 +73,14 @@
 				2D53F03A260B034E009F6C76 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D53F043260B173F009F6C76 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2D53F04C260B1FC1009F6C76 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D53F04D260B1FC1009F6C76 /* Pacifico-Regular.ttf in Resources */,
 				2D53F03B260B034E009F6C76 /* Preview Assets.xcassets in Resources */,
 				2D53F038260B034E009F6C76 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D53F036260B034A009F6C76 /* ContentView.swift in Sources */,
+				2D53F055260B3A9C009F6C76 /* InfoView.swift in Sources */,
 				2D53F034260B034A009F6C76 /* Business_CardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
